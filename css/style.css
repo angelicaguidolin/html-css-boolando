@@ -6,3 +6,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*------------
+  TYPOGRAFY
+-------------*/
+.genders{
+    color: #fff;
+}
+
+
+
+/*------------
+    GENERAL
+-------------*/
+.container{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.img-fluid{
+    width: 100%;
+}
+.icon-header{
+    color: #fff;
+}
+
+/*------------
+    HEADER
+-------------*/
+.header-banner{
+    background-color: #FF6800;
+    padding: 16px 0px;
+}
+.header-banner > .container {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+.logo{
+    width: 40%;
+}
+.header-banner .logo,
+.header-banner .genders,
+.header-banner .icon-header {
+    padding: 6px;
+}
+
+.header-banner .genders{
+    text-align: left;
+}
+.header-banner .icon-header{
+    text-align: right;
+  
+}
+.header-banner .logo{
+    text-align: center;
+}
