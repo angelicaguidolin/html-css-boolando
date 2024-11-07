@@ -31,6 +31,14 @@
 .icon-header{
     color: #fff;
 }
+.price-red{
+    font-size: 14px;
+    color: red;
+}
+.old-price{
+    font-size: 14px;
+    text-decoration: line-through;
+}
 
 /*------------
     HEADER
@@ -81,7 +89,7 @@
     gap:10px;
 }
 .col-square{
-    width: calc(100% /3);
+    width: calc(100% / 3);
     position: relative;
 }
 
@@ -92,7 +100,7 @@
     background-color: red;
     color: #fff;
     padding: 4px;
-    position: absolute;
+    /*--position: absolute;*/
     top: 0;
     right: 0;
 }
@@ -100,7 +108,21 @@
     background-color: green;
     color: #fff;
     padding: 4px;
-    position: absolute;
+    /*-position: absolute;*/
     top: 0;
     right: 0;
+}
+.flex-disc{
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 67px;
+    gap: 3px;
+}
+.heart-shop{
+    background-color: #fff;
+    position: absolute;
+    top: 21px;
+    right: 0;
+    padding: 6px;
 }
