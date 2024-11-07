@@ -38,6 +38,10 @@
 .header-banner{
     background-color: #FF6800;
     padding: 16px 0px;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+
 }
 .header-banner > .container {
     display: flex;
@@ -62,4 +66,41 @@
 }
 .header-banner .logo{
     text-align: center;
+}
+
+
+/*------------
+    MAIN
+-------------*/
+
+
+.square-row{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    gap:10px;
+}
+.col-square{
+    width: calc(100% /3);
+    position: relative;
+}
+
+.container .discount .ecology{
+    display: flex;
+}
+.discount{
+    background-color: red;
+    color: #fff;
+    padding: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ecology{
+    background-color: green;
+    color: #fff;
+    padding: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
